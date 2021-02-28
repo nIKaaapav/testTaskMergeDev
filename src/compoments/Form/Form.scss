@@ -1,6 +1,9 @@
+@import './src/style/vatibles';
+
 .form{
   &__wrapper{
     display: flex;
+    width: 100%;
     flex-direction: column;
   }
 
@@ -9,23 +12,38 @@
     flex-direction: column;
   }
 
-  &__input-container{
-    color: #333333;
+  &__input-wrap{
+    color: $text-color;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    background: #FFFFFF;
-    border: 1px solid #065BEA;
+    font-size: $font-size-text;
+    background: $white-color;
     box-sizing: border-box;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    &--container{
+      border: 1px solid $border-blue;
+    }
+
+    &--erorr {
+      border: 1px solid #FF4B26;
+    }
+
+    &--complete{
+      border: 1px solid #6FCF97;
+    }
+
   }
 
 
+
+
+
   &__input{
-    width: 100%;
+
+    width: 200px;
     border-radius: 8px;
     border: 0;
     padding: 18px 20px;
@@ -51,14 +69,7 @@
     color: #75777A;
   }
 
-  &__input-erorr {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #FF4B26;
-    box-sizing: border-box;
-    border-radius: 8px;
-  }
+
 
   &__input-header{
     margin-top: 30px;
@@ -100,13 +111,7 @@
       background: #C6D0E0;
     }
 
-    //&--disabled{
-    //  background: #C6D0E0;
-    //  &:hover{
-    //    background: #C6D0E0;
-    //  }
-    //
-    //}
+
 
   }
 }

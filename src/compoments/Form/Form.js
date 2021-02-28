@@ -9,6 +9,7 @@ const FormApp = () => {
 
   const [fieldName, setFieldName] = useState({ email: "",
     password: ""});
+
   const handleSubmit = (e) => {
     console.log(e);
   };
@@ -70,12 +71,5 @@ const schema = yup.object().shape({
     .min(5, "Min length is 5"),
 });
 
-const validateForm = (values) => {
-  const errors = {};
-  if (values.password === "" || values.email === "") {
-    errors.confirmPassword = "passwords are not matched";
-  }
-  return errors;
-};
 
 export default FormApp;

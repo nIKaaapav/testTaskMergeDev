@@ -1,10 +1,8 @@
 import React from 'react';
-// import Slider from "./Slider/Slider";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/swiper.scss';
 import 'swiper/swiper-bundle.css';
-// import 'swiper/swiper-bundle.css';
 import 'swiper/components/pagination/pagination.scss';
 import './SliderWrapper.scss'
 import Slider from "./Slider/Slider";

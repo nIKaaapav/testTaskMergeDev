@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import { SwiperSlide } from 'swiper/react';
+import React from 'react';
 
 
 const Slider = ({title, test, img}) => {
