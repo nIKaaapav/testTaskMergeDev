@@ -1,9 +1,8 @@
 import React from 'react';
-
+import HomePage from "./page/HomePage";
 const App = () => {
   return (
-      < div >
-      < /div>
+     <HomePage/>
 )
   ;
 };
