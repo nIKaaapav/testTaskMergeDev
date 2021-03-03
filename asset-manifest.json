@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/testTaskMergeDev/static/css/main.935b693f.chunk.css",
-    "main.js": "/testTaskMergeDev/static/js/main.320fa078.chunk.js",
-    "main.js.map": "/testTaskMergeDev/static/js/main.320fa078.chunk.js.map",
+    "main.css": "/testTaskMergeDev/static/css/main.d6fe2d53.chunk.css",
+    "main.js": "/testTaskMergeDev/static/js/main.f3b5c4ba.chunk.js",
+    "main.js.map": "/testTaskMergeDev/static/js/main.f3b5c4ba.chunk.js.map",
     "runtime-main.js": "/testTaskMergeDev/static/js/runtime-main.00bb640b.js",
     "runtime-main.js.map": "/testTaskMergeDev/static/js/runtime-main.00bb640b.js.map",
     "static/css/2.1e98d482.chunk.css": "/testTaskMergeDev/static/css/2.1e98d482.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.df47d49d.chunk.js.map": "/testTaskMergeDev/static/js/3.df47d49d.chunk.js.map",
     "index.html": "/testTaskMergeDev/index.html",
     "static/css/2.1e98d482.chunk.css.map": "/testTaskMergeDev/static/css/2.1e98d482.chunk.css.map",
-    "static/css/main.935b693f.chunk.css.map": "/testTaskMergeDev/static/css/main.935b693f.chunk.css.map",
+    "static/css/main.d6fe2d53.chunk.css.map": "/testTaskMergeDev/static/css/main.d6fe2d53.chunk.css.map",
     "static/js/2.0b0cd09f.chunk.js.LICENSE.txt": "/testTaskMergeDev/static/js/2.0b0cd09f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.00bb640b.js",
     "static/css/2.1e98d482.chunk.css",
     "static/js/2.0b0cd09f.chunk.js",
-    "static/css/main.935b693f.chunk.css",
-    "static/js/main.320fa078.chunk.js"
+    "static/css/main.d6fe2d53.chunk.css",
+    "static/js/main.f3b5c4ba.chunk.js"
   ]
 }
