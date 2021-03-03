@@ -4,11 +4,12 @@ const InputFormik = ({ form, linkComp, field, ...rest }) => {
   const { name } = field;
 
   const flag =
-    form.values[name] !== 0
-      ? "form__input-wrap--complete"
-      : !form.errors[name]
+   ( form.values[name] !== 0 && !form.errors[name])
       ? "form__input-wrap--container"
-      : "form__input-wrap--erorr ";
+      : !form.errors[name]
+      ? "form__input-wrap--complete"
+      : "form__input-wrap--erorr";
+  console.log(flag);
 
   return (
     <>

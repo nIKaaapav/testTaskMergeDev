@@ -1,6 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import SwiperCore, { Pagination } from 'swiper';
 import 'swiper/swiper.scss';
 import 'swiper/swiper-bundle.css';
 import 'swiper/components/pagination/pagination.scss';
@@ -9,7 +9,7 @@ import Slider from "./Slider/Slider";
 
 SwiperCore.use([Pagination]);
 
-
+const Port = 'https://nikaaapav.github.io/testTaskMergeDev/';
 
 const SliderWrapper = () => {
 
@@ -17,17 +17,17 @@ const SliderWrapper = () => {
         {
             title: 'Tokenplace',
             test: 'Multi-exchange Trading Terminal',
-            img: 'http://localhost:3000/slider1.png'
+            img: `${Port}/img/slider1.png`
         },
         {
             title: 'Fund Platform',
             test: 'Hedge funds wealth management',
-            img: 'http://localhost:3000/slider2.png'
+            img: `${Port}/img/slider1.png`
         },
         {
             title: 'Noviscient',
             test: 'Management Platform',
-            img: 'http://localhost:3000/slider3.png'
+            img: `${Port}/img/slider1.png`
         }
     ];
 
